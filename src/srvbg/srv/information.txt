@@ -1,0 +1,7 @@
+1、服务名称 people_id_ui SRV: INT32类型，接收病人信息，并且渲染在视频上，非阻塞
+2、服务名字 visite_start : Bool类型，开始巡诊节点，非阻塞
+3、服务名字 bed_recog: req Bool 类型，res Bool 类型开始识别，阻塞，看病床上有无人
+4、 服务名称 people_id_lan SRV: string类型(包含病人信息和当前的模式，例如1_recept )，接收病人信息，阻塞，等待大语言模型聊天结束为止。
+5、 服务名称 nav_goal SRV: odom类型，返回无所谓，目标位姿，阻塞。
+6、服务名字 recept_start : Bool类型，开始接诊节点，非阻塞
+7、服务名称 face_recog：req Bool 类型，res INT32 类型开始识别，阻塞，返回病人信息。

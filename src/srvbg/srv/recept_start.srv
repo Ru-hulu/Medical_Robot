@@ -1,0 +1,7 @@
+bool start_recept
+---
+bool start_ok
+
+## start_recept =  true代表开始接诊服务
+## start_ok 代表当前 接诊节点的状态
+## 提供服务端接受到服务请求后马上返回

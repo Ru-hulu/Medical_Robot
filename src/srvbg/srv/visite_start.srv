@@ -1,0 +1,7 @@
+bool start_visit
+---
+bool start_ok
+
+## start_visit =  true代表开始巡诊服务
+## start_ok 代表当前 巡诊节点的状态
+## 提供服务端接受到服务请求后马上返回

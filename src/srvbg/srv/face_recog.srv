@@ -1,0 +1,10 @@
+bool start_face_recog
+---
+int32 people_id
+
+##人脸识别节点提供服务
+##发送送一次，识别到对象为止。
+##不发送请求，则不进行识别。
+##start_face_recog数值无所谓
+##返回people_id数值代表识别到的病人id。
+##需要等待服务结束才能进行接下来的业务

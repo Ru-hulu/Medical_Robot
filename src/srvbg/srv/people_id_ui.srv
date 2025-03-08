@@ -1,0 +1,6 @@
+int32 people_id
+---
+bool get_ok
+
+##发送病人id信息
+##提供服务端接受到people_id后，马上返回get_ok。

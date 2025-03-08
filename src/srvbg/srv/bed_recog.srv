@@ -1,0 +1,12 @@
+bool start_recog_bed
+---
+bool have_people
+
+
+
+##病床识别节点提供服务
+##发送送一次，识别一次。
+##不发送请求，则不进行识别。
+##start_recog_bed数值无所谓
+##返回have_people数值代表识别有无人。
+##需要等待服务结束才能进行接下来的业务
