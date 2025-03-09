@@ -4,6 +4,8 @@ int get_people_id(int nav_id)
 {
     return nav_id;
 }
+//导航点id 与 病人id的对应关系
+
 int main(int argc,char** argv)
 {
     ros::init(argc,argv,"visite_node");
@@ -12,9 +14,10 @@ int main(int argc,char** argv)
     node_->SetHandle(nh);
     node_->InitService();
     ros::Rate rz(0.5);
+    //收到巡诊启动请求的时候，会先调用回家函数。确保任务开始前已经到家
     while(ros::ok())
     {
-        if(node_->get_visit_ok()==false)continue;
+        if(node_->get_visit_ok()==false)continue;//如果任务没有开始
         bool nav_reach = node_->Request_Nav();//是否到达
         if(nav_reach)
         {

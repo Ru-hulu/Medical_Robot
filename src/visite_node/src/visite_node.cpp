@@ -79,16 +79,16 @@ void Visite_Node::get_stop_points()
         ssize_t len = strlen(line);
         if(len>0)
         {
-            line[len-1]='\0';
+            if(line[len-1]=='\n') line[len-1]='\0';
             std::string this_line(line);
+            std::cout<<this_line<<std::endl;
             std::stringstream ss(this_line);
             
-            std::string fx,fy,fz,fyaw;
+            std::string fx,fy,fyaw;
             std::getline(ss,fx,' ');
             std::getline(ss,fy,' ');
-            std::getline(ss,fz,' ');
             std::getline(ss,fyaw,' ');            
-            pos* this_p = new pos(std::stof(fx),std::stof(fy),std::stof(fz),std::stof(fyaw));
+            pos* this_p = new pos(std::stof(fx),std::stof(fy),0.0,std::stof(fyaw));
             all_stop_pose.push_back(this_p);
         }
         else if(len==0)
