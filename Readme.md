@@ -18,7 +18,7 @@
 ### git开发指南：如何构建新的分支？
 ##### 1、首先将仓库代码拷贝一份下来 git clone -b xxx https://github.com/Ru-hulu/Medical_Robot  xxx是下载的分支名称，目前有两个分支，一个是master（稳定），一个是for_dev(大家开发)。下载的时候统一用for_dev。
 ##### 2、每个开发者进入文件夹后执行 git branch abc 创建新的分支(当前这个分支还在本地)
-##### 3、开发者切换到自己创建的分支，开始开发 git branch checkout abc 
+##### 3、开发者切换到自己创建的分支，开始开发 git checkout abc 
 ##### xxxxxx进行开发任务后xxxxxxxx
 ##### 4、git add .
 ##### 5、git commit -m "自己修改了什么说说"
