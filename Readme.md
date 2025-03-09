@@ -11,3 +11,4 @@
 ##### git branch abc 
 ##### git branch checkout abc 
 ##### 这意味着所有的修改都会在新分支 abc中
+##### git push --set-upstream origin for_dev 设置上游分支为origin
