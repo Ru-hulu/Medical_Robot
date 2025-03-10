@@ -1,8 +1,0 @@
-prefix=/home/art/xj_robot_git/Medical_Robot/devel
-
-Name: pcd2pgm
-Description: Description of pcd2pgm
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

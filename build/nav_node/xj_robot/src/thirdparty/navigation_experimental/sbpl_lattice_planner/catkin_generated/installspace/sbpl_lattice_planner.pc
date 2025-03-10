@@ -1,8 +1,0 @@
-prefix=/home/art/xj_robot_git/Medical_Robot/install
-
-Name: sbpl_lattice_planner
-Description: Description of sbpl_lattice_planner
-Version: 0.4.1
-Cflags: -I${prefix}/include -I/usr/local/include
-Libs: -L${prefix}/lib -lsbpl_lattice_planner /usr/local/lib/libsbpl.so
-Requires: roscpp costmap_2d nav_core pluginlib tf tf2 geometry_msgs nav_msgs message_runtime

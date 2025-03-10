@@ -1,2 +1,0 @@
-set(xj_robot_pnc_MESSAGE_FILES "")
-set(xj_robot_pnc_SERVICE_FILES "/home/art/xj_robot_git/Medical_Robot/src/nav_node/xj_robot/src/pnc/srv/exe_path.srv;/home/art/xj_robot_git/Medical_Robot/src/nav_node/xj_robot/src/pnc/srv/record_start.srv;/home/art/xj_robot_git/Medical_Robot/src/nav_node/xj_robot/src/pnc/srv/record_stop.srv;/home/art/xj_robot_git/Medical_Robot/src/nav_node/xj_robot/src/pnc/srv/xj_robot_task.srv;/home/art/xj_robot_git/Medical_Robot/src/nav_node/xj_robot/src/pnc/srv/nav_goal.srv")

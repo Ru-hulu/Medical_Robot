@@ -1,8 +1,0 @@
-prefix=/home/art/xj_robot_git/Medical_Robot/devel
-
-Name: fast_gicp
-Description: Description of fast_gicp
-Version: 0.0.0
-Cflags: -I/home/art/xj_robot_git/Medical_Robot/src/nav_node/xj_robot/src/thirdparty/fast_gicp/include
-Libs: -L${prefix}/lib -lfast_gicp
-Requires: 

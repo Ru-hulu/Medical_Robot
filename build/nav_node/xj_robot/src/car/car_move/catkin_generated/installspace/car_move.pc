@@ -1,8 +1,0 @@
-prefix=/home/art/xj_robot_git/Medical_Robot/install
-
-Name: car_move
-Description: Description of car_move
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
