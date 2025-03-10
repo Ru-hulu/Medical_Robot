@@ -1,0 +1,22 @@
+<launch>
+    
+    <!-- 1 硬件相关 -->
+    <node pkg="car_driver" type="car_hardware_node" name="car_hardware_node" output="screen"/>
+
+    <!-- <include file="$(find livox_ros_driver2)/launch_ROS1/msg_MID360.launch"/> -->
+
+
+    <!-- 2 底盘控制 -->
+    <node pkg="car_move" type="control_main_node" name="control_main_node" output="screen" >
+    <remap from="/cmd_vel" to="/cmd_vel" />
+    </node>
+
+    <!-- 3 遥控器 -->
+    <node respawn="true" pkg="joy" type="joy_node" name="joy_node" >
+        <param name="dev" value="/dev/input/js2" />
+    </node>
+    <!-- <include file="$(find velocity_smoother_ema)/launch/velocity_smoother_ema.launch"/> -->
+
+    
+</launch>
+

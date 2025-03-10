@@ -1,0 +1,25 @@
+[submodule "src/thirdparty/costmap_prohibition_layer"]
+	path = src/thirdparty/costmap_prohibition_layer
+	url = https://github.com/rst-tu-dortmund/costmap_prohibition_layer.git
+[submodule "src/thirdparty/fast_gicp"]
+	path = src/thirdparty/fast_gicp
+	url = https://github.com/koide3/fast_gicp.git
+[submodule "src/thirdparty/hdl_localization"]
+	path = src/thirdparty/hdl_localization
+	url = https://github.com/koide3/hdl_localization.git
+[submodule "src/thirdparty/hdl_global_localization"]
+	path = src/thirdparty/hdl_global_localization
+	url = https://github.com/koide3/hdl_global_localization.git
+[submodule "src/thirdparty/move_base_flex"]
+	path = src/thirdparty/move_base_flex
+	url = https://github.com/naturerobots/move_base_flex.git
+	branch = noetic
+[submodule "src/thirdparty/navigation_experimental"]
+	path = src/thirdparty/navigation_experimental
+	url = https://github.com/ros-planning/navigation_experimental.git
+[submodule "src/thirdparty/teb_local_planner"]
+	path = src/thirdparty/teb_local_planner
+	url = https://github.com/rst-tu-dortmund/teb_local_planner.git
+[submodule "src/thirdparty/ndt_omp"]
+	path = src/thirdparty/ndt_omp
+	url = https://github.com/koide3/ndt_omp.git
