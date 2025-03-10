@@ -1,0 +1,6 @@
+build/
+devel/
+logs/
+*.log
+**/src/CMakeLists.txt
+*.pcd
