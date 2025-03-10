@@ -1,0 +1,2 @@
+set(srvbg_MESSAGE_FILES "")
+set(srvbg_SERVICE_FILES "/home/art/xj_robot_git/Medical_Robot/src/srvbg/srv/bed_recog.srv;/home/art/xj_robot_git/Medical_Robot/src/srvbg/srv/face_recog.srv;/home/art/xj_robot_git/Medical_Robot/src/srvbg/srv/nav_goal.srv;/home/art/xj_robot_git/Medical_Robot/src/srvbg/srv/people_id_lan.srv;/home/art/xj_robot_git/Medical_Robot/src/srvbg/srv/people_id_ui.srv;/home/art/xj_robot_git/Medical_Robot/src/srvbg/srv/recept_start.srv;/home/art/xj_robot_git/Medical_Robot/src/srvbg/srv/visite_start.srv")

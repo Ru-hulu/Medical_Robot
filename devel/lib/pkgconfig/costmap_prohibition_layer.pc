@@ -1,0 +1,8 @@
+prefix=/home/art/xj_robot_git/Medical_Robot/devel
+
+Name: costmap_prohibition_layer
+Description: Description of costmap_prohibition_layer
+Version: 0.0.5
+Cflags: -I/home/art/xj_robot_git/Medical_Robot/devel/include -I/home/art/xj_robot_git/Medical_Robot/src/nav_node/xj_robot/src/thirdparty/costmap_prohibition_layer/include
+Libs: -L${prefix}/lib -lcostmap_prohibition_layer
+Requires: costmap_2d dynamic_reconfigure

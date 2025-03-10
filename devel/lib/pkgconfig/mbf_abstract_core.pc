@@ -1,0 +1,8 @@
+prefix=/home/art/xj_robot_git/Medical_Robot/devel
+
+Name: mbf_abstract_core
+Description: Description of mbf_abstract_core
+Version: 0.4.0
+Cflags: -I/home/art/xj_robot_git/Medical_Robot/src/nav_node/xj_robot/src/thirdparty/move_base_flex/mbf_abstract_core/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs geometry_msgs

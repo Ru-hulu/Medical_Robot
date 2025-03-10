@@ -1,0 +1,8 @@
+prefix=/home/art/xj_robot_git/Medical_Robot/devel
+
+Name: visite_node
+Description: Description of visite_node
+Version: 0.0.0
+Cflags: -I/home/art/xj_robot_git/Medical_Robot/src/visite_node/include
+Libs: -L${prefix}/lib -lcenter_node
+Requires: std_msgs std_srvs

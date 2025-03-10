@@ -1,0 +1,8 @@
+prefix=/home/art/xj_robot_git/Medical_Robot/devel
+
+Name: xj_robot_simu
+Description: Description of xj_robot_simu
+Version: 0.0.0
+Cflags: -I/home/art/xj_robot_git/Medical_Robot/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_generation message_runtime roscpp

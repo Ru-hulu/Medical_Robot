@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_ExePathAction.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_ExePathActionFeedback.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_ExePathActionGoal.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_ExePathActionResult.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_ExePathFeedback.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_ExePathGoal.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_ExePathResult.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_GetPathAction.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_GetPathActionFeedback.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_GetPathActionGoal.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_GetPathActionResult.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_GetPathFeedback.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_GetPathGoal.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_GetPathResult.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_MoveBaseAction.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_MoveBaseActionFeedback.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_MoveBaseActionGoal.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_MoveBaseActionResult.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_MoveBaseFeedback.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_MoveBaseGoal.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_MoveBaseResult.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_RecoveryAction.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_RecoveryActionFeedback.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_RecoveryActionGoal.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_RecoveryActionResult.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_RecoveryFeedback.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_RecoveryGoal.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/_RecoveryResult.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/msg/__init__.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/srv/_CheckPath.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/srv/_CheckPoint.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/srv/_CheckPose.py"
+  "/home/art/xj_robot_git/Medical_Robot/devel/lib/python3/dist-packages/mbf_msgs/srv/__init__.py"
+  "CMakeFiles/mbf_msgs_generate_messages_py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/mbf_msgs_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
